@@ -15,6 +15,7 @@ android {
         versionNameSuffix getUserVisibleVersionSuffix()
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
