@@ -154,7 +154,7 @@ jobs:
           username: "Pull Request Build Status"
           text: |
             ${{ env.WORKFLOW_CONCLUSION }}:
-            https://github.com/n8ebel/GitHubActionsAutomationSandbox/actions/runs/${{ github.run_id }}
+            https://github.com/iamMaher/TEST/actions/runs/${{ github.run_id }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }} # required
